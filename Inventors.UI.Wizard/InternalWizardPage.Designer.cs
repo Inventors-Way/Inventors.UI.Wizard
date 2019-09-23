@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace RLAB.UI.Wizard
+namespace Inventors.UI.Wizard
 {
    partial class InternalWizardPage
    {
-      public RLAB.UI.Wizard.WizardBanner Banner;
+      public Inventors.UI.Wizard.WizardBanner Banner;
       private System.ComponentModel.IContainer components = null;
       
       /// <summary>
@@ -31,7 +31,7 @@ namespace RLAB.UI.Wizard
       /// </summary>
       private void InitializeComponent()
       {
-         this.Banner = new RLAB.UI.Wizard.WizardBanner();
+         this.Banner = new Inventors.UI.Wizard.WizardBanner();
          this.SuspendLayout();
          // 
          // Banner

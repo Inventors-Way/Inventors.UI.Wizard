@@ -1,7 +1,7 @@
 using System;
 using System.ComponentModel;
 
-namespace RLAB.UI.Wizard
+namespace Inventors.UI.Wizard
 {
 	[DefaultEvent("SetActive")]
 	public partial class WizardPage : System.Windows.Forms.UserControl

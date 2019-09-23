@@ -4,7 +4,7 @@ using System.Drawing;
 using System.ComponentModel;
 using System.Windows.Forms;
 
-namespace RLAB.UI.Wizard
+namespace Inventors.UI.Wizard
 {
     public partial class WizardSheet : Form
     {

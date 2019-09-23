@@ -3,7 +3,7 @@ using System.ComponentModel;
 using System.Drawing;
 using System.Windows.Forms;
 
-namespace RLAB.UI.Wizard
+namespace Inventors.UI.Wizard
 {
    public partial class EtchedLine : UserControl
    {

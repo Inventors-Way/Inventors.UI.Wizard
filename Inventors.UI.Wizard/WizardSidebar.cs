@@ -1,7 +1,7 @@
 using System.Drawing;
 using System.Windows.Forms;
 
-namespace RLAB.UI.Wizard
+namespace Inventors.UI.Wizard
 {
 	/// <summary>
 	/// The wizard side bar is used for the welcome and complete pages.

@@ -1,4 +1,4 @@
-namespace RLAB.UI.Wizard
+namespace Inventors.UI.Wizard
 {
 	public partial class InternalWizardPage : WizardPage
 	{

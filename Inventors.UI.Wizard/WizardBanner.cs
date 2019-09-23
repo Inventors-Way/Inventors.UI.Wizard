@@ -1,7 +1,7 @@
 using System.ComponentModel;
 using System.Windows.Forms;
 
-namespace RLAB.UI.Wizard
+namespace Inventors.UI.Wizard
 {
    /// <summary>
    /// This class implements the banner across the top of the wizard pages.

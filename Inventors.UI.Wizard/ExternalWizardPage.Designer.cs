@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace RLAB.UI.Wizard
+namespace Inventors.UI.Wizard
 {
    partial class ExternalWizardPage
    {
-      public RLAB.UI.Wizard.WizardSidebar Sidebar;
+      public Inventors.UI.Wizard.WizardSidebar Sidebar;
       private System.ComponentModel.IContainer components = null;
       
 		/// <summary>
@@ -31,7 +31,7 @@ namespace RLAB.UI.Wizard
 		/// </summary>
 		private void InitializeComponent()
 		{
-			this.Sidebar = new RLAB.UI.Wizard.WizardSidebar();
+			this.Sidebar = new Inventors.UI.Wizard.WizardSidebar();
 			this.SuspendLayout();
 			// 
 			// Sidebar

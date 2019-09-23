@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace RLAB.UI.Wizard
+namespace Inventors.UI.Wizard
 {
    partial class WizardPage
    {
