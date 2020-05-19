@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.30319</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{80614F74-563D-418E-9BF6-1294F73521C0}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon />
+    <AssemblyKeyContainerName />
+    <AssemblyName>Inventors.UI.Wizard</AssemblyName>
+    <AssemblyOriginatorKeyFile />
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Inventors.UI.Wizard</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject />
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>0.0</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile />
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile />
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn />
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile />
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile />
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn />
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\Inventors.UI.Wizard\EtchedLine.cs">
+      <Link>EtchedLine.cs</Link>
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="..\Inventors.UI.Wizard\EtchedLine.Designer.cs">
+      <Link>EtchedLine.Designer.cs</Link>
+      <DependentUpon>EtchedLine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="..\Inventors.UI.Wizard\ExternalWizardPage.cs">
+      <Link>ExternalWizardPage.cs</Link>
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="..\Inventors.UI.Wizard\ExternalWizardPage.Designer.cs">
+      <Link>ExternalWizardPage.Designer.cs</Link>
+      <DependentUpon>ExternalWizardPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="..\Inventors.UI.Wizard\InternalWizardPage.cs">
+      <Link>InternalWizardPage.cs</Link>
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="..\Inventors.UI.Wizard\InternalWizardPage.Designer.cs">
+      <Link>InternalWizardPage.Designer.cs</Link>
+      <DependentUpon>InternalWizardPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="..\Inventors.UI.Wizard\WizardBanner.cs">
+      <Link>WizardBanner.cs</Link>
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="..\Inventors.UI.Wizard\WizardBanner.Designer.cs">
+      <Link>WizardBanner.Designer.cs</Link>
+      <DependentUpon>WizardBanner.cs</DependentUpon>
+    </Compile>
+    <Compile Include="..\Inventors.UI.Wizard\WizardPage.cs">
+      <Link>WizardPage.cs</Link>
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="..\Inventors.UI.Wizard\WizardPage.Designer.cs">
+      <Link>WizardPage.Designer.cs</Link>
+      <DependentUpon>WizardPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="..\Inventors.UI.Wizard\WizardPageEventArgs.cs">
+      <Link>WizardPageEventArgs.cs</Link>
+    </Compile>
+    <Compile Include="..\Inventors.UI.Wizard\WizardSheet.cs">
+      <Link>WizardSheet.cs</Link>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="..\Inventors.UI.Wizard\WizardSheet.Designer.cs">
+      <Link>WizardSheet.Designer.cs</Link>
+      <DependentUpon>WizardSheet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="..\Inventors.UI.Wizard\WizardSidebar.cs">
+      <Link>WizardSidebar.cs</Link>
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="..\Inventors.UI.Wizard\WizardSidebar.Designer.cs">
+      <Link>WizardSidebar.Designer.cs</Link>
+      <DependentUpon>WizardSidebar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <EmbeddedResource Include="..\Inventors.UI.Wizard\EtchedLine.resx">
+      <Link>EtchedLine.resx</Link>
+      <DependentUpon>EtchedLine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Inventors.UI.Wizard\ExternalWizardPage.resx">
+      <Link>ExternalWizardPage.resx</Link>
+      <DependentUpon>ExternalWizardPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Inventors.UI.Wizard\InternalWizardPage.resx">
+      <Link>InternalWizardPage.resx</Link>
+      <DependentUpon>InternalWizardPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Inventors.UI.Wizard\WizardBanner.resx">
+      <Link>WizardBanner.resx</Link>
+      <DependentUpon>WizardBanner.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Inventors.UI.Wizard\WizardPage.resx">
+      <Link>WizardPage.resx</Link>
+      <DependentUpon>WizardPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Inventors.UI.Wizard\WizardSheet.resx">
+      <Link>WizardSheet.resx</Link>
+      <DependentUpon>WizardSheet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Inventors.UI.Wizard\WizardSidebar.resx">
+      <Link>WizardSidebar.resx</Link>
+      <DependentUpon>WizardSidebar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bitmaps\ExampleSidebar.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent />
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>
