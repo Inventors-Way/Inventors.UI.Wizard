@@ -102,9 +102,43 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="..\Inventors.UI.Wizard\EtchedLine.cs">
+      <Link>EtchedLine.cs</Link>
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="..\Inventors.UI.Wizard\EtchedLine.Designer.cs">
+      <Link>EtchedLine.Designer.cs</Link>
+      <DependentUpon>EtchedLine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="..\Inventors.UI.Wizard\ExternalWizardPage.cs">
+      <Link>ExternalWizardPage.cs</Link>
+    </Compile>
+    <Compile Include="..\Inventors.UI.Wizard\ExternalWizardPage.Designer.cs">
+      <Link>ExternalWizardPage.Designer.cs</Link>
+      <DependentUpon>ExternalWizardPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="..\Inventors.UI.Wizard\InternalWizardPage.cs">
+      <Link>InternalWizardPage.cs</Link>
+    </Compile>
+    <Compile Include="..\Inventors.UI.Wizard\InternalWizardPage.Designer.cs">
+      <Link>InternalWizardPage.Designer.cs</Link>
+      <DependentUpon>InternalWizardPage.cs</DependentUpon>
+    </Compile>
     <Compile Include="AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
+    <EmbeddedResource Include="..\Inventors.UI.Wizard\EtchedLine.resx">
+      <Link>EtchedLine.resx</Link>
+      <DependentUpon>EtchedLine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Inventors.UI.Wizard\ExternalWizardPage.resx">
+      <Link>ExternalWizardPage.resx</Link>
+      <DependentUpon>ExternalWizardPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Inventors.UI.Wizard\InternalWizardPage.resx">
+      <Link>InternalWizardPage.resx</Link>
+      <DependentUpon>InternalWizardPage.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Bitmaps\ExampleSidebar.bmp" />
   </ItemGroup>
   <ItemGroup>
