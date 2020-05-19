@@ -112,6 +112,7 @@
     </Compile>
     <Compile Include="..\Inventors.UI.Wizard\ExternalWizardPage.cs">
       <Link>ExternalWizardPage.cs</Link>
+      <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="..\Inventors.UI.Wizard\ExternalWizardPage.Designer.cs">
       <Link>ExternalWizardPage.Designer.cs</Link>
@@ -119,10 +120,46 @@
     </Compile>
     <Compile Include="..\Inventors.UI.Wizard\InternalWizardPage.cs">
       <Link>InternalWizardPage.cs</Link>
+      <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="..\Inventors.UI.Wizard\InternalWizardPage.Designer.cs">
       <Link>InternalWizardPage.Designer.cs</Link>
       <DependentUpon>InternalWizardPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="..\Inventors.UI.Wizard\WizardBanner.cs">
+      <Link>WizardBanner.cs</Link>
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="..\Inventors.UI.Wizard\WizardBanner.Designer.cs">
+      <Link>WizardBanner.Designer.cs</Link>
+      <DependentUpon>WizardBanner.cs</DependentUpon>
+    </Compile>
+    <Compile Include="..\Inventors.UI.Wizard\WizardPage.cs">
+      <Link>WizardPage.cs</Link>
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="..\Inventors.UI.Wizard\WizardPage.Designer.cs">
+      <Link>WizardPage.Designer.cs</Link>
+      <DependentUpon>WizardPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="..\Inventors.UI.Wizard\WizardPageEventArgs.cs">
+      <Link>WizardPageEventArgs.cs</Link>
+    </Compile>
+    <Compile Include="..\Inventors.UI.Wizard\WizardSheet.cs">
+      <Link>WizardSheet.cs</Link>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="..\Inventors.UI.Wizard\WizardSheet.Designer.cs">
+      <Link>WizardSheet.Designer.cs</Link>
+      <DependentUpon>WizardSheet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="..\Inventors.UI.Wizard\WizardSidebar.cs">
+      <Link>WizardSidebar.cs</Link>
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="..\Inventors.UI.Wizard\WizardSidebar.Designer.cs">
+      <Link>WizardSidebar.Designer.cs</Link>
+      <DependentUpon>WizardSidebar.cs</DependentUpon>
     </Compile>
     <Compile Include="AssemblyInfo.cs">
       <SubType>Code</SubType>
@@ -138,6 +175,22 @@
     <EmbeddedResource Include="..\Inventors.UI.Wizard\InternalWizardPage.resx">
       <Link>InternalWizardPage.resx</Link>
       <DependentUpon>InternalWizardPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Inventors.UI.Wizard\WizardBanner.resx">
+      <Link>WizardBanner.resx</Link>
+      <DependentUpon>WizardBanner.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Inventors.UI.Wizard\WizardPage.resx">
+      <Link>WizardPage.resx</Link>
+      <DependentUpon>WizardPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Inventors.UI.Wizard\WizardSheet.resx">
+      <Link>WizardSheet.resx</Link>
+      <DependentUpon>WizardSheet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Inventors.UI.Wizard\WizardSidebar.resx">
+      <Link>WizardSidebar.resx</Link>
+      <DependentUpon>WizardSidebar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Bitmaps\ExampleSidebar.bmp" />
   </ItemGroup>
